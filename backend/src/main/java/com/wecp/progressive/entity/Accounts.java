@@ -5,13 +5,14 @@ import java.util.Comparator;
 public class Accounts implements Comparable<Accounts>, Comparator<Accounts>{
     private int account_id;
     private int customer_id;
-
+    private double balance;
+//constructor
     public Accounts(int account_id, int customer_id, double balance) {
         this.account_id = account_id;
         this.customer_id = customer_id;
         this.balance = balance;
     }
-    private double balance;
+    
     public int getAccount_id() {
         return account_id;
     }
