@@ -1,9 +1,5 @@
 package com.wecp.progressive.dao;
 
-<<<<<<< HEAD
-public class CustomerDAOImpl {
-
-=======
 import java.util.List;
 
 import com.wecp.progressive.dto.CustomerAccountInfo;
@@ -47,5 +43,4 @@ public class CustomerDAOImpl implements CustomerDAO{
         
     }
     
->>>>>>> ed05b93118062d90e938992e263faecc6467134c
 }

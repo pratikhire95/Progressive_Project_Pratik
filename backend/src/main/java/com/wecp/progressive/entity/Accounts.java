@@ -1,10 +1,5 @@
 package com.wecp.progressive.entity;
 
-<<<<<<< HEAD
-public class Accounts {
-
-}
-=======
 import java.util.Comparator;
 
 public class Accounts implements Comparable<Accounts>, Comparator<Accounts>{
@@ -55,4 +50,3 @@ public class Accounts implements Comparable<Accounts>, Comparator<Accounts>{
         return 0;
     }   
 }
->>>>>>> ed05b93118062d90e938992e263faecc6467134c

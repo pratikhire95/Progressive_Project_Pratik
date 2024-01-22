@@ -1,11 +1,5 @@
 package com.wecp.progressive.entity;
 
-<<<<<<< HEAD
-
-
-public class Customers {
-
-=======
 public class Customers {
     private int customer_id;
     private String name;
@@ -59,5 +53,4 @@ public class Customers {
         this.role = role;
     }
     
->>>>>>> ed05b93118062d90e938992e263faecc6467134c
 }

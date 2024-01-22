@@ -5,8 +5,6 @@ public class CreditCard {
     private Long id;
     private String cardNumber;
     private String cardHolderName;
-<<<<<<< HEAD
-=======
     
     public CreditCard(Long id, String cardNumber, String cardHolderName) {
         this.id = id;
@@ -37,5 +35,4 @@ public class CreditCard {
     public void setCardHolderName(String cardHolderName) {
         this.cardHolderName = cardHolderName;
     }
->>>>>>> ed05b93118062d90e938992e263faecc6467134c
 }

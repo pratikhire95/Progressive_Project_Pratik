@@ -5,8 +5,6 @@ public class Loan {
     private Long id;
     private String loanType;
     private double amount;
-<<<<<<< HEAD
-=======
     
     public Loan(Long id, String loanType, double amount) {
         this.id = id;
@@ -31,6 +29,5 @@ public class Loan {
     public void setAmount(double amount) {
         this.amount = amount;
     }
->>>>>>> ed05b93118062d90e938992e263faecc6467134c
 
 }
