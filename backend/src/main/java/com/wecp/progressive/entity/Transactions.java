@@ -3,8 +3,6 @@ import java.util.Date;
 
 
 public class Transactions {
-<<<<<<< HEAD
-=======
     private int transaction_id;
     private int account_id;
     private double amount;
@@ -49,7 +47,6 @@ public class Transactions {
     public void setTransaction_type(String transaction_type) {
         this.transaction_type = transaction_type;
     }
->>>>>>> 0d329e9283aa1be55cde7fc0ee304939f13f347d
 
 
 }

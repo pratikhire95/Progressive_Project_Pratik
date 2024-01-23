@@ -1,8 +1,5 @@
 package com.wecp.progressive.dao;
 
-<<<<<<< HEAD
-public class AccountDAOImpl {
-=======
 import java.util.*;
 import com.wecp.progressive.config.DatabaseConnectionManager;
 import com.wecp.progressive.entity.Accounts;
@@ -71,6 +68,5 @@ public class AccountDAOImpl implements AccountDAO {
         
         throw new UnsupportedOperationException("Unimplemented method 'updateAccount'");
     }
->>>>>>> 0d329e9283aa1be55cde7fc0ee304939f13f347d
 
 }

@@ -1,9 +1,5 @@
 package com.wecp.progressive.dao;
 
-<<<<<<< HEAD
-
-public class TransactionDAOImpl {
-=======
 import java.util.List;
 
 import com.wecp.progressive.entity.Transactions;
@@ -39,7 +35,6 @@ public class TransactionDAOImpl implements TransactionDAO{
         // TODO Auto-generated method stub
         
     }
->>>>>>> 0d329e9283aa1be55cde7fc0ee304939f13f347d
 
 
 
