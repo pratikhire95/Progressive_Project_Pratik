@@ -42,9 +42,9 @@ public class Accounts implements Comparable<Accounts>, Comparator<Accounts>{
     }
     @Override
     public int  compareTo(Accounts acc2){
-        if(this.getAccount_id() < acc2.getAccount_id()){
+        if(this.getBalance() < acc2.getBalance()){
             return -1;
-        }else if(this.account_id > acc2.getAccount_id()){
+        }else if(this.balance > acc2.getBalance()){
             return 1;
         }
         return 0;
